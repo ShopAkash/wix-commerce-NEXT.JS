@@ -1686,19 +1686,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.90":
-  version: 1.0.92
-  resolution: "@wix/identity@npm:1.0.92"
+"@wix/identity@npm:^1.0.92":
+  version: 1.0.94
+  resolution: "@wix/identity@npm:1.0.94"
   dependencies:
     "@wix/identity_account": 1.0.1
     "@wix/identity_account-invite": 1.0.1
-    "@wix/identity_authentication": 1.0.18
-    "@wix/identity_contributor": 1.0.3
+    "@wix/identity_authentication": 1.0.19
+    "@wix/identity_contributor": 1.0.4
     "@wix/identity_oauth": 1.0.13
     "@wix/identity_recovery": 1.0.14
     "@wix/identity_site-invite": 1.0.1
+    "@wix/identity_user": 1.0.0
     "@wix/identity_verification": 1.0.14
-  checksum: 31d79c13978fd3658daf787db1340c47e6b8b66117a7152d3ff1c633282c01a84755b13d519dd1e872f6be64e8de8a4b03ffef7a411fb9884dd0454271e32fe5
+  checksum: 4eaaa97a4a218e453ffc63d94b2c3ad7d2d62acb10c6584d7306b02d4d172fea59f3a279b703fbed757d967b8828c46002cf87e8078934b72d321be3ff23b0ca
   languageName: node
   linkType: hard
 
@@ -1722,23 +1723,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity_authentication@npm:1.0.18":
-  version: 1.0.18
-  resolution: "@wix/identity_authentication@npm:1.0.18"
+"@wix/identity_authentication@npm:1.0.19":
+  version: 1.0.19
+  resolution: "@wix/identity_authentication@npm:1.0.19"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 8fe36b7bb34c0683a828b41b67b1cf966098436c211f45cb013dadb98468168a2597aab7fe71f3968060e38722cef19e4a79d082b0ce1d522e52b13fd3daacc3
+  checksum: 294b1596421957d2e2ea46085606c5088428ac2046883ce51e13d5594ce72af895b19bd6bc25ceea0ae1e43af9e1841778619987d1921800aefe4aac77797a87
   languageName: node
   linkType: hard
 
-"@wix/identity_contributor@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@wix/identity_contributor@npm:1.0.3"
+"@wix/identity_contributor@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@wix/identity_contributor@npm:1.0.4"
   dependencies:
     "@wix/sdk-runtime": ^0.3.22
     "@wix/sdk-types": ^1.12.4
-  checksum: 64b4537db58e40c9bba52fd4493c38b33e7cb819bdc7c5ef5f8591b0a79611d7dbdbe5a0c1a70dcacf7e257fa520a3e32247624a6fe00c00513edebc38cf8ed7
+  checksum: 366a5b532d24671a18c3a96ff028e603a31c3e0aef6975a673f1d1135e508cd4a072b8c95a318cd2954f5ef4fe9b287eaa6a9241f6511d413bac87e16ea0d3b6
   languageName: node
   linkType: hard
 
@@ -1772,6 +1773,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wix/identity_user@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@wix/identity_user@npm:1.0.0"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 02181561c07f2251842a7513f989f3eb8ec4e110a04fe5aecbb40d9b75b685067cf1da59d184821e8400fb9e8d8c28cf102bdcc4ad9c766d7d00fd2916b3e7ce
+  languageName: node
+  linkType: hard
+
 "@wix/identity_verification@npm:1.0.14":
   version: 1.0.14
   resolution: "@wix/identity_verification@npm:1.0.14"
@@ -1782,7 +1793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.96.0":
+"@wix/image-kit@npm:^1.97.0":
   version: 1.97.0
   resolution: "@wix/image-kit@npm:1.97.0"
   dependencies:
@@ -1853,11 +1864,11 @@ __metadata:
   linkType: hard
 
 "@wix/sdk@npm:^1.5.0":
-  version: 1.15.2
-  resolution: "@wix/sdk@npm:1.15.2"
+  version: 1.15.3
+  resolution: "@wix/sdk@npm:1.15.3"
   dependencies:
-    "@wix/identity": ^1.0.90
-    "@wix/image-kit": ^1.96.0
+    "@wix/identity": ^1.0.92
+    "@wix/image-kit": ^1.97.0
     "@wix/redirects": ^1.0.64
     "@wix/sdk-context": ^0.0.1
     "@wix/sdk-runtime": 0.3.25
@@ -1865,11 +1876,11 @@ __metadata:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     jose: ^5.9.6
     serialize-error: ^8.1.0
-    type-fest: ^4.29.0
+    type-fest: ^4.30.0
   dependenciesMeta:
     graphql:
       optional: true
-  checksum: 6bd9ecf1ce08ae9138b290006ab7ea6ec9924308b977243ec4319b052fb294447127391e3fb450f5a90f220ad3b0b6c077475585d4b957ddf62e910eccc733b6
+  checksum: d72362c72bdf929c90ccceb04753cb64468cc5fc60828c2d19b2eec6252cd2a05a7634b159b744b3bb439dc398266eab75779ec0c694b512b67df15d077ec0b8
   languageName: node
   linkType: hard
 
@@ -7121,7 +7132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.29.0":
+"type-fest@npm:^4.30.0":
   version: 4.30.0
   resolution: "type-fest@npm:4.30.0"
   checksum: 2ce3b08265acbdf864267e1468cdcc8dbfa4e86c2fd5e4622a20a83358b5e21fcb49a41beada95d29d8ff1ed8aacb27d10ec0b7623d546f9399b529a153724b0
